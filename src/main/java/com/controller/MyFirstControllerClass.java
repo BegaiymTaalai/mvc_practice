@@ -1,6 +1,5 @@
 package com.controller;
 
-
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,12 +10,12 @@ public class MyFirstControllerClass {
 
     @GetMapping("/site")
     public String getFirstHtml(){
-        return "test";
+        return "company/test";
     }
 
     @GetMapping("/image")
     public String getSecondHtml(){
-        return "helloworld";
+        return "user/helloworld";
     }
 
 }
