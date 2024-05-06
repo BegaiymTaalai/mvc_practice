@@ -25,6 +25,12 @@ public class UserController {
         List<User> users = userService.findAll();
         model.addAttribute("data_from_backend", users);
 
+
+        /**
+         * Здесь пишу этот код, чтобы итерироваться
+         * по каждому элементу списка(list)
+         * и это же пишу в HTML страничке(название: users)
+         */
         for (User user : users) {
             System.out.println(user.getId());
             System.out.println(user.getName());
