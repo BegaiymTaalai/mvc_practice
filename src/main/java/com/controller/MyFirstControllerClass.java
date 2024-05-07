@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/api")
-public class MyFirstControllerClass {
+public class   MyFirstControllerClass {
 
     @GetMapping("/site")
     public String getFirstHtml(){

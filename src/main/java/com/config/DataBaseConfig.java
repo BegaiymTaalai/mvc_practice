@@ -25,7 +25,7 @@ import java.util.Properties;
 @EnableTransactionManagement
 @PropertySource("classpath:application.properties")
 @FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)
-public class DataBaseConfig {
+public class            DataBaseConfig {
 
     Environment environment;
 

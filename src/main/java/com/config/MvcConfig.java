@@ -19,7 +19,7 @@ import org.thymeleaf.spring6.view.ThymeleafViewResolver;
 @ComponentScan("com")
 @RequiredArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)
-public class MvcConfig implements WebMvcConfigurer {
+public class            MvcConfig implements WebMvcConfigurer {
 
     ApplicationContext context;
 
